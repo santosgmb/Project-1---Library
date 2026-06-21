@@ -220,6 +220,7 @@ background: url(assets/wave-white.svg);
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -246,4 +247,39 @@ background: url(assets/wave-white.svg);
 
 .book__title {
     font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.book__title:hover {
+    text-decoration: underline;
+    cursor: no-drop;
+}
+
+.book__ratings {
+    margin-bottom: 8px;
+    color: #fabf2a
+}
+
+.book__price--normal {
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: #bfbfbf
+}
+
+.browse__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#browse {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.browse__title {
+    
 }
